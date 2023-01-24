@@ -17,7 +17,7 @@ app.post("/sendmail", (req, res) => {
   let transporter = nodemailer.createTransport({
     host: "smtp.cdac.in",
     port: 587,
-    secure: false,
+    secure: true,
     auth: {
       user: "pki",
       pass: "pki@India@123",
