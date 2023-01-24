@@ -22,7 +22,7 @@ app.post("/sendmail", (req, res) => {
       user: "pki",
       pass: "pki@India@123",
     },
-    tls: { secureProtocol: "TLSv1.3_method" },
+    tls: { secureProtocol: "TLSv1_method" },
   });
   let mailOptions = {
     from: "pki@cdac.in",
